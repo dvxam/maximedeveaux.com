@@ -1,77 +1,15 @@
 extends layout
 
 block content
-    div(class="container")
-        div(class="row" id="heading")
-            div(class="column")
-                h1 Maxime Deveaux
-                p
-                    | Paris, France
-                    br
-                    | contact@maximedeveaux.com
-        div(class="row" id="content")
-            div(class="column")
-                h5 Profile
-                p   
-                    |I’m a full-stack developer, developing applications for 
-                    | the last  7 years. I’ve worked on multiple different 
-                    | languages, frameworks and team’s sizes/organisations. 
-                    | I’m now working as a freelance developer.
-                h5 Experience
-                h6 Software Developer, Criteo; Paris, France - 2017-Present
-                p 
-                    | Web applications part of client’s self-service platform. 
-                    | Technologies used : Angular, RxJS, Redux for SPA and 
-                    | C# (.Net core), Marathon, Aurora.
-                h6 Software Developer, Criteo; Paris, France - 2016-2017
-                p
-                    | User pool segmentation pipeline based on
-                    | browsing/shopping history for ad targeting. 
-                    | Technologies used : Scala, Scalding, Java, Hadoop, Ruby.
-
-                h6 Web Developer, MonsieurDrive; Bordeaux, France - 2015-2016
-                p 
-                    | iOS native online shopping application. Technologies
-                    | used : RubyMotion, NodeJS, Express, Kong, Lua.
-                h6 Software Developer, MonsieurDrive; Paris, France - 2013-2015
-                p
-                    | Real-time recommendation and matching engine based on user
-                    | analytics collection. Data crawling of price and promotion
-                    | of millions on products from online retail store. 
-                    | Technologies used : Ruby, Python, Redis, MongoDB, 
-                    | ElasticSearch, AWS.
-                h6 Intern, MonsieurDrive; Paris, France - 2013
-                p
-                    | Price comparison website development. 
-                    | Back-office development Realtime notification system 
-                    | (pub/sub). Technologies used :  Ruby on Rails, 
-                    | CoffeeScript, MongoDB, Postgres, Heroku.
-                h6 Intern, Ateraction; Bordeaux, France - 2012
-                p
-                    | Content Manager System development for corporate website.
-                    | Technologies used :  Nginx, Drupal, PHP, Mysql
-                h5 Education
-                h6 SRC (MMI) - Montaigne University; Bordeaux, France - 2013
-                p 
-                    | BTEC Higher National Diploma : Communication Services and 
-                    | Networks (Multimedia and Internet School).
-                h5 Skills
-                h6 Design, implement, deploy and maintain web applications.
-                h6 Test Drive Programming practitioner.
-                h6 Agile methods lover.
-        div(class="row" id="footer")
-            div(class="two columns")
-                a(href="https://www.linkedin.com/in/maxime-deveaux-44757542/") Linkedin
-            div(class="two columns")
-                a(href="https://github.com/dvxam") Github
-            div(class="two columns")
-                a(href="https://stackoverflow.com/users/3471833/dvxam") Stackoverflow
-            div(class="two columns")
-                a CV
-            div(class="two columns")
-                a Comet
-            div(class="two columns")
-                a(href="https://www.malt.fr/profile/maximedeveaux") Malt
-        div(class="row" id="legal")
-            div(class="column")
-                p Maxime Deveaux - contact@maximedeveaux.com
+    .full
+        .container.navbar
+            .row
+                div(class="six columns") 
+                    a(href="https://www.malt.fr/profile/maximedeveaux") Malt
+                div(class="six columns")
+                    a(href="https://www.linkedin.com/in/maxime-deveaux-44757542/") LinkedIn
+        .content
+            h1 Maxime Deveaux
+            h3 Web Engineer Freelance
+            h4 
+                a(href="mailto:contact@maximedeveaux.com") contact@maximedeveaux.com
