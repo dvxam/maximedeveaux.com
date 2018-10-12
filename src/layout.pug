@@ -13,3 +13,10 @@ html
         link(rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png")
     body
         block content
+
+    script(async, src="https://www.googletagmanager.com/gtag/js?id=UA-127382596-1")
+    script
+        | window.dataLayer = window.dataLayer || [];
+        | function gtag(){dataLayer.push(arguments);}
+        | gtag('js', new Date());
+        | gtag('config', 'UA-127382596-1');
